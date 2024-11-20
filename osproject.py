@@ -90,3 +90,13 @@ while runtel == 1:
         with open(reader, 'rb') as f:
             textsession = pickle.load(f)
             print(textsession)
+
+#SCECRET commands
+
+    if ask == "/what is the meaning of life?":
+        print("wow you found a secret command!!!")
+        print("the meaning of life is based of of what you believe you are needed for. now for the real stuff.\nthe real meaning of life is us humans growing and learning until\nthe aliens think we are fit enough to go to their planet and fight to the death\nin a roman style colosseum.")
+    
+    elif ask == "/how did the dinosaurs die?":
+        print("wow you found a secret command!!!")
+        print("the dinosaurs died due to a big flipping meteor. plot twist, what if we killed the dinosaurs?\nwhat if the meteor was a alien spaceship and humans are the aliens?")
